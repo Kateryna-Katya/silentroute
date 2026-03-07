@@ -70,3 +70,86 @@ margin-right: auto;
     gap: 28px;
   }
 }
+/* Disclaimer */
+.about-section{
+    background-image: url("/img/about/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.about-container{
+    padding-left: 0;
+    padding-right: 0;
+}
+.disclaimer-title{
+    font-family: "Pontano Sans", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 0.44444;
+        text-transform: uppercase;
+        color: #2dcb01;
+        text-align: left;
+        margin-bottom: 30px;
+}
+.disclaimer-text{
+    font-family: "Pontano Sans", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.1;
+        text-transform: uppercase;
+        text-align: justify;
+        color: #2dcb01;
+}
+/* ATMOSPHERE */
+.atmosphere-section{ 
+    height: 677px;
+    background-image: url("/img/about/about-mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.atmosphere-container{
+   padding-top: 60px;   
+}
+.atmosphere-subtitle{
+    margin-top: 13px;
+margin-bottom: 40px;
+}
+.atmosphere-list{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.atmosphere-item{
+    display: flex;
+    gap: 16px;
+    text-transform: uppercase;
+}
+/* CORE GAME FEEL */
+.core-title{
+    text-align: left;
+}
+.core-subtitle{
+    text-align: left;
+    margin-top: 13px;
+    margin-bottom: 32px;
+}
+.core-text{
+text-align: justify;
+margin-bottom: 80px;
+}
+.core-swiper .swiper-slide{
+width: 361px;
+    height: 132px;
+    padding: 42px 36px 54px 47px;
+    background-image: url("/img/core/back.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 330px 132px; 
+}
+.core-next{
+    margin-top: 24px;
+    border: none;
+    background-color: inherit;
+}

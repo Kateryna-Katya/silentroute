@@ -8,18 +8,20 @@ body{
     color: #fff;
 }
 h2{
-  font-family: "Pontano Sans", sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 0.44444;
-    text-transform: uppercase;
-    color: #fff;
+font-family: "Pontano Sans", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
 }
 h3{
-  font-family: "Pontano Sans", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 0.66667;
-    text-transform: uppercase;
-    color: #fff;
+font-family: "Pontano Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
 }
