@@ -274,3 +274,30 @@ margin-top: 32px;
   gap: 24px;
   text-align: left;
  }
+ @media only screen and (min-width: 1440px) {
+  .mechanic-section{
+    background-image: url("/img/features/desk.png");
+  }
+  .mechanic-container{
+    display: flex;
+    gap: 150px;
+  }
+  .bonus-wrapper,
+  .features-wrapper{
+    margin-top: 340px;
+    width: 566px;
+  }
+.check-wrapper{
+  display: flex;
+  margin-top: 45px;
+  align-items: center;
+  width: 439px;
+  gap: 24px;
+}
+.check{
+  margin: 0;
+}
+.check-text{
+  text-align: left;
+}
+ }
