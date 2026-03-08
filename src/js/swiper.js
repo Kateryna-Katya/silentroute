@@ -5,28 +5,15 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-// =========================
-// КАРТИНКИ ДЛЯ ПАГИНАЦИИ GALLERY
-// =========================
-const galleryPaginationIcons = [
-  {
-    default: './img/gallery/pag.png',
-    active: './img/gallery/pag-active.png',
-  },
-  {
-    default: '/img/gallery/pag.png',
-    active: './img/gallery/pag-active.png',
-  },
-  {
-    default: './img/gallery/pag.png',
-    active: './img/gallery/pag-active.png',
-  },
-  {
-    default: './img/gallery/pag.png',
-    active: './img/gallery/pag-active.png',
-  },
-];
+import pag from '/img/gallery/pag.png';
+import pagActive from '/img/gallery/pag-active.png';
 
+const galleryPaginationIcons = [
+  { default: pag, active: pagActive },
+  { default: pag, active: pagActive },
+  { default: pag, active: pagActive },
+  { default: pag, active: pagActive },
+];
 // =========================
 // CORE SWIPER
 // =========================
