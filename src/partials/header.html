@@ -1,0 +1,67 @@
+<header class="header" id="site-header">
+    <div class="header-container container">
+        <a class="header-link" href="./#home">
+            <picture>
+                <source srcset="
+                            /img/header/logo-desk.png 1x,
+                            /img/header/logo-desk@2x.png 2x
+                                        " media="(min-width: 1440px)" />
+                <source srcset="
+                            /img/header/logo-mob.png 1x,
+                            /img/header/logo-mob@2x.png 2x
+                                        " media="(max-width: 1439px)" />
+                <img class="header-logo" src="/img/header/logo-mob.png" alt="Star Guardians" loading="lazy" />
+            </picture>
+        </a>
+        <button type="button" class="menu-button" aria-label="menu toggle">
+<img src="/img/header/burger.png" alt="Open" loading="lazy">
+        </button>
+
+        <nav class="nav ">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a class="links" href="./#home">World</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#about">Gameplay</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#mechanic">Bonus Buy</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#features">Features</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#gallery">Gallery</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#demo">Play</a>
+                </li>
+            </ul>
+        </nav>
+        <a class="desk-btn" href="#demo">
+            <img src="/img/header/btn.png" alt="Play Now" loading="lazy">
+        </a>
+    </div>
+</header>
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+    <ul class="menu-list">
+        <li class="menu-item"><a class="menu-list-item" href="./#home">World</a></li>
+        <li class="menu-item"><a class="menu-list-item" href="./#about">Gameplay</a></li>
+        <li class="menu-item"><a class="menu-list-item" href="./#mechanic">Bonus Buy</a></li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#features">Features</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#gallery">Gallery</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#demo">Play</a>
+        </li>
+    </ul>
+    <img class="frog" src="/img/header/frog.png" alt="header" loading="lazy">
+        <a class="modal-btn" href="#demo">
+            <img src="/img/header/btn.png" alt="Play Now" loading="lazy">
+        </a>
+</div>
