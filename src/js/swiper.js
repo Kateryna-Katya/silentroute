@@ -35,6 +35,7 @@ const coreSwiper = new Swiper('.core-swiper', {
   loop: true,
   slidesPerView: 1,
   spaceBetween: 16,
+
   speed: 800,
 
   autoplay: {
