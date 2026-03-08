@@ -1,0 +1,91 @@
+@import url('./styles.css');
+
+
+
+.background {
+    text-align: left;
+font-family: "Pontano Sans", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #fff;
+}
+
+.privacy-container {
+    padding-top: 120px;
+
+}
+
+
+.privacy-title {
+font-family: "Pontano Sans", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.44444;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: left;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-text {
+    margin-top: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.policy-subtitle {
+font-family: "Pontano Sans", sans-serif;
+font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.25;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.policy-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.underline {
+text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #2dcb01;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.mail-link {
+text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #2dcb01;
+}
+
+.policy-span {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1439px) {
+    .privacy-container {
+        padding-top: 140px;
+        padding-left: 190px;
+        padding-right: 190px;
+    }
+
+}
