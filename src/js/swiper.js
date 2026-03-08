@@ -10,20 +10,20 @@ import 'swiper/css/pagination';
 // =========================
 const galleryPaginationIcons = [
   {
-    default: '/img/gallery/pag.png',
-    active: '/img/gallery/pag-active.png',
+    default: './img/gallery/pag.png',
+    active: './img/gallery/pag-active.png',
   },
   {
     default: '/img/gallery/pag.png',
-    active: '/img/gallery/pag-active.png',
+    active: './img/gallery/pag-active.png',
   },
   {
-    default: '/img/gallery/pag.png',
-    active: '/img/gallery/pag-active.png',
+    default: './img/gallery/pag.png',
+    active: './img/gallery/pag-active.png',
   },
   {
-    default: '/img/gallery/pag.png',
-    active: '/img/gallery/pag-active.png',
+    default: './img/gallery/pag.png',
+    active: './img/gallery/pag-active.png',
   },
 ];
 
