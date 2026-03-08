@@ -301,3 +301,53 @@ margin-top: 32px;
   text-align: left;
 }
  }
+/* Gallery */
+.gallery-section{
+  background-image: url("/img/gallery/mob.png");
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+}
+.gallery-container{
+  padding-left: 0;
+  padding-right: 0;
+}
+.gallery-subtitle{
+  margin-top: 10px;
+  margin-bottom: 67px;
+}
+.gallery-pagination{
+  margin-top: 50px;
+}
+.gallery-pagination .swiper-pagination-bullet {
+  width: 37px;
+  height: 38px;
+  background: transparent;
+  border-radius: 0;
+  opacity: 1;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+/* картинка внутри */
+.gallery-pagination .swiper-pagination-bullet img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+/* активная */
+.gallery-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+  transform: scale(1.08);
+}
+.gallery-swiper .swiper-slide img{
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (min-width: 1440px) {
+  .gallery-section{
+    background-image: url("/img/gallery/desk.png");
+  }
+}
